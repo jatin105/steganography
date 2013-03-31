@@ -4,6 +4,6 @@
 
 	password may be alphanumeric
 	the size of the string will be desplayed when it is added
-	
-	
-NOTE:Run it for testing with SIZE=46 PASSWORD=sarath
+
+
+The ou put would be a file named out.dat which may be passed to the reciever hrough some secure channel

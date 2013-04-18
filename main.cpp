@@ -51,11 +51,11 @@ void read_bmp(byte *fline,const size_t msg_len,const char bmp[]){
 			fin.seekg(block_size*(rnd+1/2),ios::beg);
 			ch=fin.get();
 			if((bit_count(ch)%2) ^ (rnd%2)){
-				cout<<'1';/**for debugging only'**/
+			//	cout<<'1';/**for debugging only'**/
 				set(fline[i],j);
 					}
 			else
-				cout<<'0';/**********debuggin*****/
+			;//	cout<<'0';/**********debuggin*****/
 			}
 		cout<"\t";
 
